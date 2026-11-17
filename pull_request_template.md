@@ -1,6 +1,6 @@
 ## Summary
 
-<!-- What changes and why. Name the Linear issue, for example VORG-123. -->
+<!-- What changes and why. Name the issue it delivers. -->
 
 Replace this line with what changes and why.
 
