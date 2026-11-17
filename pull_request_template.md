@@ -17,12 +17,13 @@ Declare the Change Tier on a line of its own in this section, naming one of:
 
 Change Tier: Routine | Reviewed | Dual-control | Emergency
 
-For example "Change Tier: Reviewed". Put only the Change Tier word after the
-colon; give the reason on the next line.
+Write the line below this comment, not inside it: a line inside the comment
+is not read. For example "Change Tier: Reviewed". Put only the Change Tier
+word after the colon; give the reason on the next line.
 
-The change-tier check decides the Change Tier from the repo and path rules;
-a declaration can raise it, never lower it. Leave the line out to take the
-one the check decides.
+The change-tier check decides the Change Tier; a declaration can raise it,
+never lower it. Leave the line out to take the one the check decides. Until
+the check is switched on, the Change Tier is recorded on the PR, not enforced.
 
 Declaring Emergency does not change the Change Tier; it marks an Emergency
 change, which follows the Emergency change process and merges through the
